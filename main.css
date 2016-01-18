@@ -1,0 +1,34 @@
+div{
+	border: 1px solid black;
+}
+.caja{
+	background-color: silver;
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 10px;
+	padding: 0px;
+}
+
+.dos{
+	background-color: orange;
+	width: 360px;
+	padding: 20px;
+	display: block;
+}
+
+.cajita{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.cajita:nth-child(3){
+	margin-right: 0px;
+}
+
+.tres{
+	display: inline-block;
+}
